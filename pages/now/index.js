@@ -15,7 +15,7 @@ class NowIndex extends Component {
           <p><em><small>Last updated 7/3/2017</small></em></p>
 
           <p>
-            I am Ashwin Saxena. Just Starting This Blog.  
+            I am Ashwin Saxena. Just Starting This Blog. And it is live.
           </p>
 
           
