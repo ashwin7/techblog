@@ -1,0 +1,77 @@
+[  
+    {  
+      "id":1,
+      "created_at":"2017-03-18T23:23:27.802Z",
+      "updated_at":"2017-03-18T23:23:27.802Z",
+      "pages":256,
+      "author":"Ramond Smullyan",
+      "title":"To Mock A Mockingbird",
+      "notes":null,
+      "isbn":"978-0192801425",
+      "times_read":1,
+      "rating":4
+   },
+   
+    {  
+      "id":2,
+      "created_at":"2016-09-19T23:29:22.802Z",
+      "updated_at":"2016-09-19T23:29:22.802Z",
+      "pages":207,
+      "author":"Stoyan Stefanov",
+      "title":"Javascript Patterns",
+      "notes":null,
+      "isbn":"978-0-596-80675-0",
+      "times_read":1,
+      "rating":null
+   },
+   {  
+      "id":3,
+      "created_at":"2016-09-21T12:24:04.631Z",
+      "updated_at":"2016-09-21T12:24:04.631Z",
+      "pages":260,
+      "author":"Michael Fogus",
+      "title":"Functional Javascript",
+      "notes":null,
+      "isbn":"978-1449360726",
+      "times_read":2,
+      "rating":5
+   },
+   {  
+      "id":4,
+      "created_at":"2016-09-21T12:28:25.940Z",
+      "updated_at":"2016-09-21T12:28:25.940Z",
+      "pages":392,
+      "author":"John Resig ",
+      "title":"Secrets of the JavaScript Ninja",
+      "notes":null,
+      "isbn":"978-1933988696",
+      "times_read":1,
+      "rating":5
+   },
+   {  
+      "id":5,
+      "created_at":"2016-09-21T12:29:02.072Z",
+      "updated_at":"2016-09-21T12:29:02.072Z",
+      "pages":176,
+      "author":"Douglas Crockford",
+      "title":"Javascript: The Good Parts ",
+      "notes":null,
+      "isbn":"978-0596517748",
+      "times_read":1,
+      "rating":3
+   },
+   {  
+      "id":6,
+      "created_at":"2017-03-18T23:19:18.725Z",
+      "updated_at":"2017-03-18T23:19:18.725Z",
+      "pages":1280,
+      "author":"Brandon Sanderson",
+      "title":"The Way Of Kings",
+      "notes":null,
+      "isbn":"978-0765365279",
+      "times_read":1,
+      "rating":5
+   }
+
+   
+]
