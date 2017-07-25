@@ -1,9 +1,9 @@
 ---
 title: About This Blog
-date: '2017-07-03T10:46:52.358Z'
+date: '2017-07-24T10:46:52.358Z'
 layout: post
 featured: true
-path: "/blog/about-this-blog1/"
+path: "/blog/about-this-blog/"
 ---
 
 This is a self-referential blog post about this blog.
