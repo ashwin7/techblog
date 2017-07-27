@@ -1,6 +1,6 @@
 ---
 title: About This Blog
-date: '2017-07-24T10:46:52.358Z'
+date: '2017-07-25T10:46:52.358Z'
 layout: post
 featured: true
 path: "/blog/about-this-blog/"
@@ -27,9 +27,21 @@ This is some `info`
 Red alert boxes have information you should **definitely** read because it could
 be very important or dangerous.
 
+
 ::: warning
 THIS IS WARNING
 :::
+
+**CODE EXAMPLES**
+
+Code samples and examples are shown like this:
+
+```javascript  
+function ashwin(){
+    console.log("Ashwin says hello.");
+}
+```
+
 
 **Errors & Mistakes** 
 

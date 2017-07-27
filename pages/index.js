@@ -17,14 +17,14 @@ export default class Index extends React.Component {
         <Helmet
           title={config.siteTitle}
           meta={[
-            {"name": "description", "content": "Ashwin Saxena's Blog - A blog about programming and life."},
-            {"name": "keywords", "content": "Programming, blog, lifestyle design, React, Redux"},
+            {"name": "description", "content": "Ashwin's Tech Blog - My adventures in JavaScript and Python."},
+            {"name": "keywords", "content": "Programming, blog, , React, AngularJS, Python, Node, Javascript, ES6"},
           ]}
         />
         <Flex flexColumn align="center">
-          <h1 className="fade-in" style={{fontSize: '3em'}}> Ashwin Saxena's Blog </h1>
+          <h1 className="fade-in" style={{fontSize: '2.2em',marginBottom:'0.9rem'}}> Tech Blah Blah... </h1>
           <p>
-            Articles, screencasts, and tutorials to level up your Javascript, Python, and general programming skills.
+            Javascript, Python and general coding thingies.
           </p>
 
           <Box mt={3}>
@@ -38,6 +38,21 @@ export default class Index extends React.Component {
             <p>Join the monthly newsletter and never miss a post.</p>
              <MailchimpForm inline /> 
           </Box> */}
+        </Flex>
+
+        <Flex mt={2} flexColumn>
+          <h2 style={{
+            fontFamily: fonts.primary,
+            fontWeight: fonts.bold,
+          }}>Latest Entries...</h2>
+
+          <HeaderLink to="/blog/hackerearth-problem-solving-with-node-windows/">
+            Solving hackerearth problems with Javascript on Windows
+          </HeaderLink>
+          <HeaderLink to="blog/about-this-blog/">
+            Learn more about this blog
+          </HeaderLink>
+
         </Flex>
 
         <Flex mt={2} flexColumn>

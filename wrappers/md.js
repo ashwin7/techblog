@@ -38,7 +38,7 @@ export default class MDWrapper extends Component {
             { name: "twitter:description", content: description || title },
             { property: "og:title", content: title },
             { property: "og:type", content: "article" },
-            { property: "og:url", content: `http://ashwinsaxena.com${post.path}` },
+            { property: "og:url", content: `http://tech.ashwinsaxena.com${post.path}` },
             { property: "og:description", content: description || title },
           ]}
         />
@@ -73,21 +73,21 @@ export default class MDWrapper extends Component {
         </Flex> */}
 
         <Flex mt={3} justify="center">
-          <ShareIcons title={title} desc={description} url={`http://ashwinsaxena.com${post.path}`} />
+          <ShareIcons title={title} desc={description} url={`http://tech.ashwinsaxena.com${post.path}`} />
         </Flex>
 
-        <Flex mt={3} justify="center">
+        {/* <Flex mt={3} justify="center">
           <Button onClick={this.handleToggleComments}>
             {buttonText}
           </Button>
-        </Flex>
+        </Flex> */}
 
         {this.state.isShowingComments && 
           <ReactDisqusThread
             shortname="ashwinsaxena"
             identifier={post.title}
             title={post.title}
-            url={`http://ashwinsaxena.com${post.path}`}
+            url={`http://tech.ashwinsaxena.com${post.path}`}
           />
         }
       </div>

@@ -15,12 +15,12 @@ function Logo({  }) {
         fontWeight: fonts.bold,
       }}
     >
-      Ashwin
+      Ashwin's
       <span style={{
         fontWeight: fonts.xThin,
         marginLeft: 5,
       }}>
-        Saxena
+        Tech-Blog
       </span>
     </Link>
   );
